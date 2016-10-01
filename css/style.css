@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+/* line 23, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+nav {
+  font-family: "Oswald", sans-serif;
+  color: #FFCC06; }
+
+/* line 29, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+.navbar-logo {
+  padding: 10px 0 0 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 550;
+  transition: color, 1s, ease-out; }
+  /* line 36, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+  .navbar-logo:hover {
+    color: #4A4A4A;
+    background-color: transparent; }
+
+/* line 42, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+.navbar-nav {
+  width: 100%;
+  text-align: center; }
+  /* line 45, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+  .navbar-nav .menu-item {
+    font-size: 18px;
+    padding: 0 20px; }
+  /* line 49, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+  .navbar-nav .fa {
+    font-size: 16px; }
+  /* line 52, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+  .navbar-nav li {
+    float: none;
+    display: inline-block; }
+    /* line 56, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+    .navbar-nav li a {
+      color: #FFCC06;
+      transition: color, 0.3s, ease-out; }
+      /* line 60, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+      .navbar-nav li a:hover {
+        color: #4A4A4A;
+        background-color: transparent; }
+
+/* line 67, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+#nav {
+  transition: top 0.5s; }
+
+/* line 70, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+#nav.nav2 {
+  background-color: #FFCC06;
+  color: #4A4A4A; }
+  /* line 72, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+  #nav.nav2 .navbar-logo:hover {
+    color: #000;
+    background-color: transparent; }
+  /* line 79, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+  #nav.nav2 li {
+    float: none;
+    display: inline-block; }
+    /* line 82, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+    #nav.nav2 li a {
+      color: #4A4A4A;
+      transition: color, 0.3s, ease-out; }
+      /* line 85, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+      #nav.nav2 li a:hover {
+        color: #000;
+        background-color: transparent; }
+
+/* line 92, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+section {
+  height: 100vh; }
+
+/* line 96, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+.section1 {
+  background-image: url("../img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+  filter: blur(5px);
+  background-color: #4A4A4A; }
+
+/* line 100, C:/Users/Kuba/Documents/Projekt_rower/inny/css/style.scss */
+.section2 {
+  background-color: #4A4A4A; }
+
+/*# sourceMappingURL=style.css.map */

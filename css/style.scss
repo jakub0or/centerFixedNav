@@ -1,0 +1,102 @@
+//Google font
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+//Variables
+$nav-color-one:#FFCC06;
+$nav-color-two:#4A4A4A;
+$nav-color-three: #000;
+$nav-background-color:#FFCC06;
+$Oswald: 'Oswald',
+sans-serif;
+$logo-font-size: 46px;
+$menu-font-size: 18px;
+$icon-size: 16px;
+//Mixins
+@mixin image-background($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    filter: blur(5px);
+}
+
+nav {
+    font-family: $Oswald;
+    color: $nav-color-one;
+}
+
+//style
+.navbar-logo {
+    padding: 10px 0 0 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: $logo-font-size;
+    font-weight: 550;
+    transition: color, 1s, ease-out;
+    &:hover {
+        color: $nav-color-two;
+        background-color: transparent;
+    }
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    .menu-item {
+    font-size: $menu-font-size;
+	padding: 0 20px;
+}
+    .fa{
+        font-size: $icon-size;
+    }
+    li {
+        float: none;
+        display: inline-block;
+        
+        a {
+
+            color: $nav-color-one;
+            transition: color, 0.3s, ease-out;
+            &:hover {
+                color: $nav-color-two;
+                background-color: transparent;
+            }
+        }
+    }
+}
+#nav{
+    transition: top 0.5s;
+}
+#nav.nav2{
+    .navbar-logo {
+	  &:hover {
+        color: $nav-color-three;
+        background-color: transparent;
+    }
+}
+    background-color: $nav-color-one;
+    color: $nav-color-two;
+      li {
+        float: none;
+        display: inline-block;
+        a {
+            color: $nav-color-two;
+            transition: color, 0.3s, ease-out;
+            &:hover {
+                color: $nav-color-three;
+                background-color: transparent;
+            }
+        }
+    }
+}
+section {
+    height: 100vh;
+}
+
+.section1 {
+    @include image-background('../img/bg2.jpg');
+    background-color: $nav-color-two;
+}
+.section2 {
+	background-color: $nav-color-two;
+}
